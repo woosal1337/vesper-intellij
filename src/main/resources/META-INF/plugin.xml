@@ -1,0 +1,29 @@
+<idea-plugin>
+  <id>com.woosal.vesper</id>
+  <name>Vesper</name>
+  <version>0.0.1</version>
+  <vendor url="https://github.com/woosal1337/vesper-intellij">Vesper</vendor>
+
+  <description><![CDATA[
+    Peppermint and orange flavored dark theme for JetBrains IDEs.
+    <br/>
+    Port of the <a href="https://github.com/raunofreiberg/vesper">Vesper VSCode theme</a> by Rauno Freiberg.
+    <br/>
+    Works in IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, RubyMine, GoLand, CLion, Rider, DataGrip, and other IntelliJ Platform IDEs.
+  ]]></description>
+
+  <change-notes><![CDATA[
+    <ul>
+      <li><b>0.0.1</b> Initial release. One-to-one port of Vesper from VSCode.</li>
+    </ul>
+  ]]></change-notes>
+
+  <idea-version since-build="231"/>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="com.woosal.vesper.dark" path="/themes/Vesper.theme.json"/>
+    <bundledColorScheme path="/themes/Vesper"/>
+  </extensions>
+</idea-plugin>

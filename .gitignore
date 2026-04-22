@@ -1,2 +1,11 @@
-node_modules
-*.vsix
+.gradle/
+.intellijPlatform/
+build/
+out/
+*.iml
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+local.properties
+.DS_Store
+.env
