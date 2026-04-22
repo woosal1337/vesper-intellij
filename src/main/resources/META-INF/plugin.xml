@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.woosal.vesper</id>
   <name>Vesper</name>
-  <version>0.0.1</version>
+  <version>1.0.0</version>
   <vendor url="https://github.com/woosal1337/vesper-intellij">Vesper</vendor>
 
   <description><![CDATA[
@@ -14,7 +14,7 @@
 
   <change-notes><![CDATA[
     <ul>
-      <li><b>0.0.1</b> Initial release. One-to-one port of Vesper from VSCode.</li>
+      <li><b>1.0.0</b> Initial release. One-to-one port of Vesper from VSCode for JetBrains IDEs.</li>
     </ul>
   ]]></change-notes>
 
